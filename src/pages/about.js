@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { PageHeader, Banner } from '../utils';
-import aboutImg from '../images/bcg/aboutBcg.jpeg';
+import aboutImg from '../images/bcg/aboutBcg.jpg';
 
 const AboutPage = () => (
   <Layout>

@@ -27,8 +27,6 @@ export default class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div className="title">bistro</div>
-
         <div className="icons">
           {this.state.icons.map(item => (
             <a
@@ -79,16 +77,5 @@ const FooterWrapper = styled.footer`
     text-transform: capitalize;
     text-align: center;
     margin-top: 2rem;
-  }
-
-  .title {
-    text-align: center;
-    width: 14rem;
-    color: ${styles.colors.mainYellow};
-    text-transform: uppercase;
-    padding: 0.8rem 1rem;
-    margin: 0 auto 2rem auto;
-    font-size: 1.5rem;
-    ${styles.border({ color: `${styles.colors.mainYellow}` })}
   }
 `;

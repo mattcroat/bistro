@@ -13,13 +13,13 @@ export const Banner = ({ title, subtitle, children }) => {
 };
 
 const BannerWrapper = styled.div`
+  font-family: 'Playfair Display', sans-serif;
   margin-bottom: 3rem;
   text-align: center;
 
   .title {
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
-    text-transform: uppercase;
     ${styles.letterSpacing({ spacing: '0.75rem' })};
   }
 
@@ -28,7 +28,6 @@ const BannerWrapper = styled.div`
     ${styles.textSlanted};
     ${styles.letterSpacing({ spacing: '0.15rem' })};
     font-size: 1.5rem;
-    text-transform: capitalize;
   }
 `;
 

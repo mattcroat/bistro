@@ -54,7 +54,7 @@ const IconWrapper = styled.div`
   .facebook-icon,
   .twitter-icon,
   .instagram-icon {
-    color: ${styles.colors.mainBlack};
+    color: ${styles.colors.mainWhite};
   }
 
   .icon:hover {

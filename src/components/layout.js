@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #262626;
     background: #f2f2f2;
   }

@@ -6,7 +6,7 @@ import Img from 'gatsby-image';
 
 const singleImage = graphql`
   {
-    img1: file(relativePath: { eq: "homeGallery/img-1.jpeg" }) {
+    img1: file(relativePath: { eq: "homeGallery/img-1.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -14,7 +14,7 @@ const singleImage = graphql`
       }
     }
 
-    img2: file(relativePath: { eq: "homeGallery/img-2.jpeg" }) {
+    img2: file(relativePath: { eq: "homeGallery/img-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -22,7 +22,7 @@ const singleImage = graphql`
       }
     }
 
-    img3: file(relativePath: { eq: "homeGallery/img-3.jpeg" }) {
+    img3: file(relativePath: { eq: "homeGallery/img-3.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid_tracedSVG

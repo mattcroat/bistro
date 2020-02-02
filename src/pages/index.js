@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { HomeHeader, Banner, BannerButton } from '../utils';
-import img from '../images/bcg/homeBcg.jpeg';
+import img from '../images/bcg/homeBcg.jpg';
 import QuickInfo from '../components/HomePageComponents/QuickInfo';
 import { Gallery } from '../components/HomePageComponents/Gallery-1';
 import Menu from '../components/HomePageComponents/Menu';
@@ -13,10 +13,12 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
       <Banner
-        title="Bob's Burgers"
-        subtitle="55 main street - santa monica, CA"
+        title="Bistro"
+        subtitle="Simple Meals in a Modest Setting"
       >
-        <BannerButton style={{ margin: '2rem auto' }}>menu</BannerButton>
+        <BannerButton style={{ margin: '2rem auto' }}>
+          menu below
+        </BannerButton>
       </Banner>
     </HomeHeader>
     <QuickInfo />

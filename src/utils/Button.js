@@ -27,6 +27,6 @@ export const SectionButton = styled(BannerButton)`
 
   &:hover {
     background: ${styles.colors.mainBlack};
-    color: ${styles.colors.mainYellow};
+    color: ${styles.colors.mainWhite};
   }
 `;

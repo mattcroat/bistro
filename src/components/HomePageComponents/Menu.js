@@ -27,7 +27,7 @@ const productsQuery = graphql`
 export default () => {
   return (
     <Section>
-      <Title title="featured items" message="little taste" />
+      <Title title="featured items" message="today's special" />
       <ProductList>
         <StaticQuery
           query={productsQuery}

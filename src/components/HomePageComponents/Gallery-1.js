@@ -35,7 +35,7 @@ export const Gallery = () => {
                   return (
                     <div key={index} className={`item item-${index + 1}`}>
                       <Img fluid={node.childImageSharp.fluid} />
-                      <p className="info">awesome burgers</p>
+                      <p className="info">special</p>
                     </div>
                   );
                 })}
@@ -62,7 +62,7 @@ const GalleryWrapper = styled.div`
     top: 0;
     left: 0;
     background: ${styles.colors.mainYellow};
-    padding: 0.1rem 0.3rem;
+    padding: 0.4rem 0.4rem;
     text-transform: capitalize;
   }
 
